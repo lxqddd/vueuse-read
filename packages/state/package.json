@@ -1,0 +1,14 @@
+{
+  "name": "@read/state",
+  "version": "0.0.1",
+  "description": "state section",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "state"
+  ],
+  "author": "xy",
+  "license": "MIT"
+}
