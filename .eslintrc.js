@@ -19,6 +19,7 @@ module.exports = {
     'vue'
   ],
   rules: {
-    quotes: ['error', 'single']
+    quotes: ['error', 'single'],
+    '@typescript-eslint/explicit-function-return-type': 'off'
   }
 }
