@@ -2,5 +2,6 @@
 
 ### state
 
-[ ] createGlobalState
+[x] createGlobalState
+
 [ ] createInjectionState
