@@ -12,9 +12,9 @@ import { inject, provide } from 'vue'
 //   return [useProvidingState, useInjectedState]
 // }
 
-export function useCreateInjectionState (composable: any) {
+export function useCreateInjectionState (composable: (...args: any[]) => any): [useProvidingState: (...args: any[]) => void, useInjectedState: (...args: any[]) => any] {
   const useProvidingState = (...args: any[]) => {
-    provide('key', composable(args))
+    provide('key', composable(...args))
   }
 
   const useInjectedState = () => inject('key')
