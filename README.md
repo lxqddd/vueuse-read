@@ -4,4 +4,4 @@
 
 [x] createGlobalState
 
-[ ] createInjectionState
+[x] createInjectionState
